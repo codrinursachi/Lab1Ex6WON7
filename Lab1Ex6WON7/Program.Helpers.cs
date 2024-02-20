@@ -10,11 +10,16 @@
         }
         return number;
     }
-    static void CheckParity(int numar)
+    static string CheckParity(int numar)
     {
         if (numar % 2 == 0)
-            Console.WriteLine("par");
+            return "par";
         else
-            Console.WriteLine("impar");
+            return "impar";
+    }
+    
+    static void ShowParity(string parity)
+    {
+        Console.WriteLine(parity);
     }
 }

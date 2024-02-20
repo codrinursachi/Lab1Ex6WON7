@@ -7,4 +7,4 @@ impar
  In cazul in care numarul este par, programul va afisa “par” iar in caz contrar, “impar”.
 
  Google :even and odd numbe*/
-CheckParity(ReadNumber());
+ShowParity(CheckParity(ReadNumber()));
